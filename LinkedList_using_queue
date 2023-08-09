@@ -1,0 +1,15 @@
+import java.util.LinkedList;
+import java.util.Queue;
+public class Demo_Linkedlist_using_queue {
+    public static void main(String[] args) {
+        Queue <Integer> num = new LinkedList<>();
+        num.offer(1);
+        num.offer(2);
+        num.offer(3);
+        num.offer(4);
+        System.out.println(num);
+        num.poll();
+        System.out.println(num);
+        System.out.println(num.peek());
+    }
+}

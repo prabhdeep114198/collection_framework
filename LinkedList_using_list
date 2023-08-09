@@ -1,0 +1,32 @@
+import java.util.List;
+import java.util.LinkedList;
+
+public class Demo_Linkedlist_using_List {
+    public static void main(String[] args) {
+        List <Integer> no = new LinkedList<>();
+        no.add(1);
+        no.add(2);     //add element
+        no.add(3);
+        no.add(4);
+        no.add(5);
+        System.out.println(no);
+
+        no.add(6);
+        System.out.println(no);
+
+        no.add(0,0);    //add element at given index
+        System.out.println(no);
+
+
+        System.out.println(no.get(4));     //get element at given index
+
+        no.remove(2);        //remove element from given index
+        no.remove(Integer.valueOf(5));   //remove element by value
+        System.out.println(no);
+       // no.clear();          // delete all elements
+        //System.out.println(no);
+
+        no.set(2,200);     //edit values
+        System.out.println(no);
+    }
+}

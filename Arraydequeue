@@ -1,0 +1,15 @@
+import java.util.ArrayDeque;
+public class ArrayDequeue {
+    public static void main(String[] args) {
+        ArrayDeque<Integer> num = new ArrayDeque<>();
+        num.offer(5);
+        num.offerFirst(6);
+        num.offerLast(3);
+        System.out.println(num);
+        num.poll();
+        System.out.println(num);
+        System.out.println(num.peek());
+
+
+    }
+}
